@@ -36,3 +36,12 @@ input, select{
   font-weight: bold;
   text-align: right;
 }
+
+@media (max-width: 760px) { /* SMARTPHONE */
+  :root{
+    font-size: 8px;
+  }
+  .flour-conversion{
+    width: auto;
+  }
+}
